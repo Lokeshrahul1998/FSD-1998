@@ -1,0 +1,4 @@
+A "for loop" is a control flow statement in programming that allows you to repeatedly execute a block of code a certain number of times or over a range of values. It's a fundamental construct used in many programming languages for tasks such as iterating over arrays, processing elements in a collection, or executing a block of code a specified number of times.
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration: " + i);
+}
