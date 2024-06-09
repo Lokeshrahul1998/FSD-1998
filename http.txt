@@ -1,0 +1,4 @@
+HTTP/1.1: 
+     In HTTP/1.1, only one request can be outstanding on a connection at a time, meaning that requests must be sent and received sequentially, which can lead to inefficiencies, especially for high-latency connections.
+HTTP/2:
+     HTTP/2 introduces multiplexing, allowing multiple requests and responses to be sent and received simultaneously over a single connection. This reduces latency and can improve overall performance, particularly for modern web applications with many resources to fetch.g
