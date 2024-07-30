@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DOM</title>
+        <style>
+            .square{
+                width: 100px;
+                height: 100px;
+                background: lightblue;
+            }
+        </style>
+        </head>
+        <body>
+            <script>
+             const square = document.createElement("div");
+             square.setAttribute("class", "square");
+             const btn = document.createElement("button");
+             btn.innerText="Add";
+             const para = document.createElement("p");
+             para.innerText="Text here";
+             square.append(para, btn);
+             document.body.appendChild(square);
+            </script>
+        </body>
+    </html>

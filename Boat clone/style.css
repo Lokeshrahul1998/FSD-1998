@@ -1,0 +1,17 @@
+p {
+    margin: 0px;
+}
+
+.web-info-banner {
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-navbar{
+    height: 80px;
+
+    .brand-logo {
+        width: 85px;
+    }
+}
