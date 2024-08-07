@@ -1,5 +1,3 @@
-Asynchronous programming callback
-
 const Timer = (cb) =>{
     console.log(10);
     setTimeout(() => {
